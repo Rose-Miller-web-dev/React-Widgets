@@ -1,0 +1,14 @@
+* {
+    overflow: hidden;
+    background-color: black;
+}
+
+
+.container {
+    display: block;
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+}

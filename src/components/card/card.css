@@ -1,0 +1,19 @@
+.card {
+    width: 18%;
+    height: 400px;
+    margin: 1%;
+}
+
+img {
+    object-fit: cover;
+}
+
+h3 {
+    cursor: pointer;
+}
+
+.card-container {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
