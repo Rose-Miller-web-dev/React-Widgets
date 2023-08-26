@@ -1,12 +1,12 @@
 import React from "react";
 import './../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import MyAccordion from "./components/accordion";
+import SearchFilter from "./components/SearchFilter/searchFilter";
 
 function App() {
 
   return (
    <>
-      <MyAccordion />
+      <SearchFilter />
    </>
   )
 }
