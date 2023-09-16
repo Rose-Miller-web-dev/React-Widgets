@@ -1,25 +1,19 @@
 :root {
-  --primary: #302ae6;
-  --secondary: #536390;
-  --font: #424242;
-  --bg: #fff;
-  --header: #292922;
-}
-
-[data-theme='dark'] {
-  --primary: #9a97f3;
-  --secondary: #818cab;
-  --font: #e1e1ff;
-  --bg: #161625;
-  --header: #818cab;
+  --body-background: white;
+  --title: black;
+  --primary: blue;
 }
 
 [data-theme='light'] {
-  --primary: #302ae6;
-  --secondary: #536390;
-  --font: #424242;
-  --bg: #fff;
-  --header: #292922;
+  --body-background: white;
+  --title: black;
+  --primary: blue;
+}
+
+[data-theme='dark'] {
+  --body-background: rgb(52, 52, 52);
+  --title: white;
+  --primary: rgb(97, 97, 255);
 }
 
 .modalContent {

@@ -1,12 +1,12 @@
 import React from "react";
 import './../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import ToggleSwitch from "./components/theming/toggleSwitch";
+import Test from "./components/test/test";
 
 function App() {
 
   return (
    <>
-      <ToggleSwitch />
+      <Test />
    </>
   )
 }
