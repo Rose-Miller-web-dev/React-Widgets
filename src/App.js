@@ -1,12 +1,12 @@
 import React from "react";
 import './../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import SearchFilter from "./components/SearchFilter/searchFilter";
+import ToggleSwitch from "./components/theming/toggleSwitch";
 
 function App() {
 
   return (
    <>
-      <SearchFilter />
+      <ToggleSwitch />
    </>
   )
 }
