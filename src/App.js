@@ -1,14 +1,14 @@
 import React from "react";
 import './../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import { DndContext } from "@dnd-kit/core";
-import DndWrapper from "./components/dnd/DndWrapper";
+import OnePageRouter from "./components/OnePageRouter";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
 
   return (
-   <>
-       <DndWrapper />
-   </>
+  
+      <OnePageRouter />
+    
   )
 }
 
