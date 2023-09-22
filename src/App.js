@@ -1,12 +1,13 @@
 import React from "react";
 import './../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import DragDrop from "./components/DragAndDrop";
+import { DndContext } from "@dnd-kit/core";
+import DndWrapper from "./components/dnd/DndWrapper";
 
 function App() {
 
   return (
    <>
-      <DragDrop />
+       <DndWrapper />
    </>
   )
 }

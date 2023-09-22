@@ -10,8 +10,17 @@ export default function DragDrop() {
         "Javascript", "Typescipt", "C++"
     ])
 
-    const onDragEnd = (event) => {
-        console.log("onDragEnd", event)
+    function handleDragEnd(event) {
+        
+        const {active, over} = event
+        if(active.id !== over.id) {
+            setLang((items) => {
+                const activeIndex = items.indexOf(active.id)
+                const overIndex = items.indexOf(over.id)
+
+                return arrayMove(items, activeIndex, overIndex)
+            })
+        }
     }
 
     return(
@@ -36,17 +45,4 @@ export default function DragDrop() {
             </DndContext>
         </>
     )
-
-    function handleDragEnd(event) {
-        
-        const {active, over} = event
-        if(active.id !== over.id) {
-            setLang((items) => {
-                const activeIndex = items.indexOf(active.id)
-                const overIndex = items.indexOf(over.id)
-
-                return arrayMove(items, activeIndex, overIndex)
-            })
-        }
-    }
 }
