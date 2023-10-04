@@ -1,13 +1,13 @@
 import React from "react"
 import './../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import Table from "./components/Tanstack/table";
+import Tanstack from "./components/Tanstack";
 
 function App() {
 
   return (
 
     <>
-      <Table />
+        <Tanstack />
     </>
     
   )
