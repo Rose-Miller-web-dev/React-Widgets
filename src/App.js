@@ -1,13 +1,14 @@
-import React from "react"
 import './../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import Tanstack from "./components/Tanstack";
+import React from "react";
+import ProgBar from './components/ProgressBar';
+import './components/ProgBar.css'
 
 function App() {
 
   return (
 
     <>
-        <Tanstack />
+       <ProgBar />
     </>
     
   )
